@@ -13,7 +13,7 @@ const clickButton = () => {
     <p>Are you ready to join thousands of others, creating movement towards a better future?</p>
     <p>Feel the EnviroVibe by taking part in events all around the globe!</p>
     <NuxtLink to="/events">
-      <button>Check out the events</button>
+      <button class="cta">Check out the events</button>
     </NuxtLink>
   </div>
 </template>
@@ -35,7 +35,7 @@ const clickButton = () => {
     font-size: 1.5rem;
   }
 
-  button {
+  .cta {
     margin-top: 5rem;
     font-size: 2rem;
     background: blanchedalmond;
@@ -44,7 +44,7 @@ const clickButton = () => {
     border-radius: 2rem;
   }
 
-  button:hover {
+  .cta:hover {
     cursor: pointer;
     background: linen;
   }

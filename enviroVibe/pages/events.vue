@@ -129,6 +129,7 @@ const events = [
 <template>
   <div class="event-container">
     <h1>Events</h1>
+    <EventFilter />
     <ul class="event-list">
       <li v-for="event of events">
         <EventWidget
